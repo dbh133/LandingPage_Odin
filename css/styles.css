@@ -2,10 +2,19 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: roboto;
+	flex: 1;
 }
 
 .header {
 	background-color: #1f2937;
+	width: 100%;
+}
+
+.footer {
+	background-color: #1f2937;
+	color: #f9faf8;
+	text-align: center;
+	padding: 18px;
 }
 
 h1 {
@@ -18,8 +27,6 @@ h1 {
 a {
 	font-size: 18px;
 	color: #e5e7eb;
-	display: flex;
-	flex-flow: column wrap;
 }
 
 button {
@@ -101,4 +108,24 @@ main-content img {
 	flex-direction: column;
 	align-items: center;
 	flex: 1;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+.top-container {
+	display: flex;
+}
+
+.header-content {
+	width: 50%;
+}
+
+.header-content-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 }
