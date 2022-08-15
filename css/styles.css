@@ -8,6 +8,8 @@ body {
 .header {
 	background-color: #1f2937;
 	width: 100%;
+	display: flex;
+	flex-flow: column;
 }
 
 .footer {
@@ -21,6 +23,7 @@ h1 {
 	font-size: 48px;
 	font-weight: extra-bold;
 	color: #f9faf8;
+	margin: 0;
 }
 
 .header-content p,
@@ -112,20 +115,24 @@ main-content img {
 
 .navbar {
 	display: flex;
-	justify-content: space-evenly;
 	padding: 10px;
-}
-
-.top-container {
-	display: flex;
+	justify-content: space-around;
 }
 
 .header-content {
-	width: 50%;
+	max-width: 100%;
+	display: flex;
+	padding: 30px;
+	justify-content: space-around;
 }
 
 .header-content-container {
 	display: flex;
-	justify-content: flex-start;
 	flex-wrap: wrap;
+	padding: 10px;
+	max-width: 20%;
+}
+
+.header-content p {
+	margin-top: 0px;
 }
