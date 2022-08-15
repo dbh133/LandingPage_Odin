@@ -7,9 +7,10 @@ body {
 
 .header {
 	background-color: #1f2937;
-	width: 100%;
+	max-width: 100%;
 	display: flex;
-	flex-flow: column;
+	flex-flow: column wrap;
+	padding: 10px;
 }
 
 .footer {
@@ -36,6 +37,7 @@ button {
 	background-color: #3882f6;
 	border-radius: 5px;
 	color: #f9faf8;
+	margin: 0 0 50px 10px;
 }
 
 .Header-logo {
@@ -115,24 +117,25 @@ main-content img {
 
 .navbar {
 	display: flex;
+	justify-content: space-between;
 	padding: 10px;
-	justify-content: space-around;
+	margin: 0 200px 0 200px;
 }
 
 .header-content {
-	max-width: 100%;
 	display: flex;
-	padding: 30px;
-	justify-content: space-around;
+	max-width: 100%;
+	justify-content: space-between;
+	flex: 1;
+	margin: 0 200px 0 200px;
 }
 
-.header-content-container {
-	display: flex;
-	flex-wrap: wrap;
+.header-content-container h1 {
 	padding: 10px;
-	max-width: 20%;
+	max-width: 50%;
 }
 
 .header-content p {
 	margin-top: 0px;
+	padding: 10px;
 }
