@@ -53,66 +53,7 @@ button {
 	color: #1f2937;
 }
 
-.main-content-bottom {
-	background-color: #e5e7eb;
-	display: flex;
-	flex-flow: column;
-}
-
-.main-content-bottom p {
-	font-size: 36px;
-	font-style: oblique 15deg;
-	color: #1f2937;
-	max-width: 50%;
-	align-self: center;
-	margin-bottom: -10px;
-}
-
-.main-content-bottom .quote-author {
-	font-style: none;
-	font-weight: bold;
-	text-align: right;
-	max-width: 75%;
-	margin-bottom: 50px;
-	margin-top: 10px;
-}
-
-.header-content .placeholderimg {
-	width: 450px;
-	height: 200px;
-	background-color: #e5e7eb;
-	text-align: center;
-	line-height: 200px;
-	align-self: center;
-	min-width: 450px;
-}
-
-.main-content-bottom-bar {
-	background-color: #3882f6;
-	border-radius: 10px;
-	width: 75%;
-	display: flex;
-	flex-wrap: wrap;
-	color: #f9faf8;
-	justify-content: space-evenly;
-	align-items: center;
-	margin: 75px 0px 75px 0px;
-	padding: 40px 40px;
-}
-
-.main-content-bottom-bar button {
-	border: #e5e7eb solid 1px;
-	margin: auto;
-	flex-grow: 0;
-}
-
-.main-container {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	flex: 1;
-}
-
+/* Conatiners dealing with header and nav bar */
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -136,6 +77,23 @@ button {
 .header-content p {
 	margin-top: 0px;
 	padding: 10px;
+}
+
+.header-content .placeholderimg {
+	width: 450px;
+	height: 200px;
+	background-color: #e5e7eb;
+	text-align: center;
+	line-height: 200px;
+	align-self: center;
+	min-width: 450px;
+}
+/* Containers for the content between the header and footer */
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 1;
 }
 
 .main-content {
@@ -174,6 +132,50 @@ button {
 	text-align-last: center;
 }
 
+/* Containers controlling call to action and button */
+.main-content-bottom {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-flow: column;
+}
+
+.main-content-bottom p {
+	font-size: 36px;
+	font-style: oblique 15deg;
+	color: #1f2937;
+	max-width: 50%;
+	align-self: center;
+	margin-bottom: -10px;
+}
+
+.main-content-bottom .quote-author {
+	font-style: none;
+	font-weight: bold;
+	text-align: right;
+	max-width: 75%;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+.main-content-bottom-bar {
+	background-color: #3882f6;
+	border-radius: 10px;
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	color: #f9faf8;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	margin: 75px 0px 75px 0px;
+	padding: 40px 40px;
+}
+
+.main-content-bottom-bar button {
+	border: #e5e7eb solid 1px;
+	margin: 0;
+	flex-grow: 0;
+}
+
 h3 {
-	margin-bottom: 0px;
+	margin: 0px;
 }
